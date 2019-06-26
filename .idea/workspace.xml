@@ -2,22 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2ff3200-76bb-4549-9c8a-bb6c761aa867" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main/fixtures/cb/cb1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/fixtures/cb/cb2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/fixtures/cb/cb3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/fixtures/invoice_test_order.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/fixtures/invoice_test_order.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/fixtures/product-sample.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/fixtures/product-sampleimages/backgammon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/fixtures/product-sampleimages/cathedral-bazaar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/fixtures/product-sampleimages/siddhartha.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/fixtures/producttags.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/fixtures/the-cathedral-the-bazaar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/fixtures/the-cathedral-the-bazaar.thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/management/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/management/commands/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/management/commands/import_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/test/test_admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/test/test_consumers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/test/test_e2e.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/test/test_endpoints.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/test/test_import.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/test/test_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/address_select.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/basket.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/chat_room.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/customer_service.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/includes/field.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/invoice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/main/address_confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/main/address_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/main/address_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/main/address_update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/main/order_filter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/main/product_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/main/product_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/most_bought_products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/order_done.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/orders_per_day.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/widgets/plusminusnumber.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CompanySite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/CompanySite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompanySite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/CompanySite/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/test/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/test/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,11 +46,43 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CompanySite/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#635#667#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -49,16 +102,19 @@
         <option value="$PROJECT_DIR$/templates/contact_us.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/templates/about_us.html" />
-        <option value="$PROJECT_DIR$/main/views.py" />
         <option value="$PROJECT_DIR$/main/forms.py" />
-        <option value="$PROJECT_DIR$/CompanySite/urls.py" />
-        <option value="$PROJECT_DIR$/main/models.py" />
         <option value="$PROJECT_DIR$/main/signals.py" />
         <option value="$PROJECT_DIR$/main/apps.py" />
         <option value="$PROJECT_DIR$/CompanySite/settings.py" />
         <option value="$PROJECT_DIR$/main/test/test_signals.py" />
         <option value="$PROJECT_DIR$/main/test/test_forms.py" />
+        <option value="$PROJECT_DIR$/main/test/test_models.py" />
+        <option value="$PROJECT_DIR$/main/migrations/0005_productname_capitalize.py" />
+        <option value="$PROJECT_DIR$/main/admin.py" />
+        <option value="$PROJECT_DIR$/main/models.py" />
+        <option value="$PROJECT_DIR$/main/views.py" />
         <option value="$PROJECT_DIR$/main/test/tests.py" />
+        <option value="$PROJECT_DIR$/CompanySite/urls.py" />
       </list>
     </option>
   </component>
@@ -90,37 +146,13 @@
             <path>
               <item name="CompanySite" type="b2602c69:ProjectViewProjectNode" />
               <item name="CompanySite" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CompanySite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CompanySite" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="fixtures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CompanySite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CompanySite" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="fixtures" type="462c0819:PsiDirectoryNode" />
-              <item name="product-sampleimages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CompanySite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CompanySite" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CompanySite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CompanySite" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CompanySite" type="b2602c69:ProjectViewProjectNode" />
               <item name="CompanySite" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -132,14 +164,16 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/main/test" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/main/test" />
       <recent name="$PROJECT_DIR$/main" />
+      <recent name="$PROJECT_DIR$/templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -154,8 +188,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django tests.Test: main.test.test_signals.TestSignal">
-    <configuration name="Test: main.test.test_forms.TestForm.test_invalid_contact_us_form" type="DjangoTestsConfigurationType" temporary="true">
+  <component name="RunManager" selected="Django tests.Test: main.test.tests.TestPage.test_products_page_returns_active">
+    <configuration name="Test: main.test.test_import.TestImport" type="DjangoTestsConfigurationType" temporary="true">
       <module name="CompanySite" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -168,14 +202,14 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="main.test.test_forms.TestForm.test_invalid_contact_us_form" />
+      <option name="TARGET" value="main.test.test_import.TestImport" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test: main.test.test_forms.TestForm.test_valid_contact_us_form_sends_email" type="DjangoTestsConfigurationType" temporary="true">
+    <configuration name="Test: main.test.test_models.TestModel" type="DjangoTestsConfigurationType" temporary="true">
       <module name="CompanySite" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -188,7 +222,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="main.test.test_forms.TestForm.test_valid_contact_us_form_sends_email" />
+      <option name="TARGET" value="main.test.test_models.TestModel" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: main.test.test_models.TestModel.test_active_manager_works" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="CompanySite" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="main.test.test_models.TestModel.test_active_manager_works" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
@@ -215,7 +269,7 @@
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test: main.test.tests.TestPage.test_about_us_page_works" type="DjangoTestsConfigurationType" temporary="true">
+    <configuration name="Test: main.test.tests.TestPage.test_products_page_returns_active" type="DjangoTestsConfigurationType" temporary="true">
       <module name="CompanySite" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -228,27 +282,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="main.test.tests.TestPage.test_about_us_page_works" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test: main.test.tests.TestPage.test_contact_us_page_works" type="DjangoTestsConfigurationType" temporary="true">
-      <module name="CompanySite" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="main.test.tests.TestPage.test_contact_us_page_works" />
+      <option name="TARGET" value="main.test.tests.TestPage.test_products_page_returns_active" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
@@ -280,11 +314,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Django tests.Test: main.test.tests.TestPage.test_products_page_returns_active" />
+        <item itemvalue="Django tests.Test: main.test.test_import.TestImport" />
+        <item itemvalue="Django tests.Test: main.test.test_models.TestModel" />
+        <item itemvalue="Django tests.Test: main.test.test_models.TestModel.test_active_manager_works" />
         <item itemvalue="Django tests.Test: main.test.test_signals.TestSignal" />
-        <item itemvalue="Django tests.Test: main.test.tests.TestPage.test_contact_us_page_works" />
-        <item itemvalue="Django tests.Test: main.test.tests.TestPage.test_about_us_page_works" />
-        <item itemvalue="Django tests.Test: main.test.test_forms.TestForm.test_invalid_contact_us_form" />
-        <item itemvalue="Django tests.Test: main.test.test_forms.TestForm.test_valid_contact_us_form_sends_email" />
       </list>
     </recent_temporary>
   </component>
@@ -298,7 +332,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561486506486</updated>
-      <workItem from="1561486509924" duration="6602000" />
+      <workItem from="1561486509924" duration="19693000" />
     </task>
     <task id="LOCAL-00001" summary="testa and signals commit">
       <created>1561555448259</created>
@@ -307,62 +341,72 @@
       <option name="project" value="LOCAL" />
       <updated>1561555448259</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="tests and signals commit">
+      <created>1561558698959</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1561558698959</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test__main_test_test_forms_TestForm_test_valid_contact_us_form_sends_email - 2019.06.26 at 17h 59m 45s.xml">
-      <configuration name="Test: main.test.test_forms.TestForm.test_valid_contact_us_form_sends_email" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="Test__main_test_test_forms_TestForm_test_invalid_contact_us_form - 2019.06.26 at 18h 00m 00s.xml">
-      <configuration name="Test: main.test.test_forms.TestForm.test_invalid_contact_us_form" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="Test__main_test_tests_TestPage_test_about_us_page_works - 2019.06.26 at 18h 00m 13s.xml">
-      <configuration name="Test: main.test.tests.TestPage.test_about_us_page_works" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="Test__main_test_tests_TestPage_test_about_us_page_works - 2019.06.26 at 18h 06m 38s.xml">
-      <configuration name="Test: main.test.tests.TestPage.test_about_us_page_works" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="Test__main_test_tests_TestPage_test_contact_us_page_works - 2019.06.26 at 18h 06m 44s.xml">
-      <configuration name="Test: main.test.tests.TestPage.test_contact_us_page_works" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="Test__main_test_tests_TestPage_test_contact_us_page_works - 2019.06.26 at 18h 07m 34s.xml">
-      <configuration name="Test: main.test.tests.TestPage.test_contact_us_page_works" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="Test__main_test_tests_TestPage_test_contact_us_page_works - 2019.06.26 at 18h 08m 12s.xml">
-      <configuration name="Test: main.test.tests.TestPage.test_contact_us_page_works" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="Test__main_test_test_signals_TestSignal - 2019.06.26 at 18h 08m 28s.xml">
-      <configuration name="Test: main.test.test_signals.TestSignal" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
     <history-entry file="Test__main_test_test_signals_TestSignal - 2019.06.26 at 18h 52m 28s.xml">
       <configuration name="Test: main.test.test_signals.TestSignal" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
+    <history-entry file="Test__main_test_test_models_TestModel - 2019.06.26 at 22h 14m 26s.xml">
+      <configuration name="Test: main.test.test_models.TestModel" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__main_test_test_models_TestModel - 2019.06.26 at 22h 15m 13s.xml">
+      <configuration name="Test: main.test.test_models.TestModel" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__main_test_test_models_TestModel_test_active_manager_works - 2019.06.26 at 22h 16m 07s.xml">
+      <configuration name="Test: main.test.test_models.TestModel.test_active_manager_works" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__main_test_test_models_TestModel - 2019.06.26 at 22h 16m 42s.xml">
+      <configuration name="Test: main.test.test_models.TestModel" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__main_test_test_import_TestImport - 2019.06.27 at 01h 49m 05s.xml">
+      <configuration name="Test: main.test.test_import.TestImport" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__main_test_test_import_TestImport - 2019.06.27 at 02h 04m 23s.xml">
+      <configuration name="Test: main.test.test_import.TestImport" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__main_test_tests_TestPage_test_products_page_returns_active - 2019.06.27 at 02h 41m 07s.xml">
+      <configuration name="Test: main.test.tests.TestPage.test_products_page_returns_active" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__main_test_tests_TestPage_test_products_page_returns_active - 2019.06.27 at 02h 48m 15s.xml">
+      <configuration name="Test: main.test.tests.TestPage.test_products_page_returns_active" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__main_test_tests_TestPage_test_products_page_returns_active - 2019.06.27 at 02h 49m 52s.xml">
+      <configuration name="Test: main.test.tests.TestPage.test_products_page_returns_active" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6602000" />
+    <option name="totallyTimeSpent" value="19693000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="683" y="25" width="683" height="686" extended-state="4" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24960753" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24960753" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" weight="0.32854578" />
       <window_info anchor="bottom" id="Python Console" weight="0.32854578" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32675046" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32675046" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32854578" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34470376" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Database" weight="0.32967034" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -399,14 +443,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="testa and signals commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="testa and signals commit" />
+    <MESSAGE value="tests and signals commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests and signals commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CompanySite$Test__main_test_test_models_TestModel.coverage" NAME="Test: main.test.test_models.TestModel Coverage Results" MODIFIED="1561567602004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/CompanySite$Test__main_test_test_import_TestImport.coverage" NAME="Test: main.test.test_import.TestImport Coverage Results" MODIFIED="1561581262946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/CompanySite$Test__main_test_test_forms_TestForm_test_valid_contact_us_form_sends_email.coverage" NAME="Test: main.test.test_forms.TestForm.test_valid_contact_us_form_sends_email Coverage Results" MODIFIED="1561552184366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/CompanySite$Test__main_test_test_forms_TestForm_test_invalid_contact_us_form.coverage" NAME="Test: main.test.test_forms.TestForm.test_invalid_contact_us_form Coverage Results" MODIFIED="1561552200156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/CompanySite$Test__main_test_tests_TestPage_test_contact_us_page_works.coverage" NAME="Test: main.test.tests.TestPage.test_contact_us_page_works Coverage Results" MODIFIED="1561552691748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/CompanySite$Test__main_test_tests_TestPage_test_about_us_page_works.coverage" NAME="Test: main.test.tests.TestPage.test_about_us_page_works Coverage Results" MODIFIED="1561552597381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/CompanySite$Test__main_test_test_models_TestModel_test_active_manager_works.coverage" NAME="Test: main.test.test_models.TestModel.test_active_manager_works Coverage Results" MODIFIED="1561567567047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/CompanySite$Test__main_test_test_signals_TestSignal.coverage" NAME="Test: main.test.test_signals.TestSignal Coverage Results" MODIFIED="1561555346408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/CompanySite$Test__main_test_tests_TestPage_test_products_page_returns_active.coverage" NAME="Test: main.test.tests.TestPage.test_products_page_returns_active Coverage Results" MODIFIED="1561583991702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/templates/home.html">
@@ -447,29 +496,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#27#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/migrations/0001_initial.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/migrations/0004_productimage_thumbnail.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -483,9 +509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/test/test_forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="83">
@@ -493,43 +516,6 @@
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CompanySite/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#635#667#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/test/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/test/test_signals.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -571,10 +557,150 @@
     <entry file="file://$PROJECT_DIR$/main/fixtures/product-sampleimages/siddhartha.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/main/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/test/test_signals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/test/test_models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/includes/field.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/migrations/0005_productname_capitalize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CompanySite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
+        <state relative-caret-position="1365">
           <caret line="121" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/management/commands/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/test/test_admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="382" selection-start-line="382" selection-end-line="382" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/test/test_import.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/management/commands/import_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-186">
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#27#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/main/product_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-361" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/test/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CompanySite/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#635#667#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
