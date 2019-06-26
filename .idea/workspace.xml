@@ -2,43 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2ff3200-76bb-4549-9c8a-bb6c761aa867" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/management/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/management/commands/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/management/commands/import_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/test/test_admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/test/test_consumers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/test/test_e2e.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/test/test_endpoints.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/test/test_import.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/test/test_models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/address_select.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/basket.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/chat_room.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/customer_service.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/includes/field.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/invoice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/address_confirm_delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/address_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/address_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/address_update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/order_filter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/product_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/product_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/most_bought_products.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/order_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/orders_per_day.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/widgets/plusminusnumber.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CompanySite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/CompanySite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompanySite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/CompanySite/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/test/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/test/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,13 +36,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CompanySite/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="101">
               <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#635#667#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="97" column="27" selection-start-line="97" selection-start-column="27" selection-end-line="97" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CompanySite/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-171">
+              <caret line="56" column="14" lean-forward="true" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,16 +104,16 @@
         <option value="$PROJECT_DIR$/main/forms.py" />
         <option value="$PROJECT_DIR$/main/signals.py" />
         <option value="$PROJECT_DIR$/main/apps.py" />
-        <option value="$PROJECT_DIR$/CompanySite/settings.py" />
         <option value="$PROJECT_DIR$/main/test/test_signals.py" />
         <option value="$PROJECT_DIR$/main/test/test_forms.py" />
         <option value="$PROJECT_DIR$/main/test/test_models.py" />
         <option value="$PROJECT_DIR$/main/migrations/0005_productname_capitalize.py" />
-        <option value="$PROJECT_DIR$/main/admin.py" />
-        <option value="$PROJECT_DIR$/main/models.py" />
         <option value="$PROJECT_DIR$/main/views.py" />
         <option value="$PROJECT_DIR$/main/test/tests.py" />
         <option value="$PROJECT_DIR$/CompanySite/urls.py" />
+        <option value="$PROJECT_DIR$/main/models.py" />
+        <option value="$PROJECT_DIR$/CompanySite/settings.py" />
+        <option value="$PROJECT_DIR$/main/admin.py" />
       </list>
     </option>
   </component>
@@ -146,12 +145,6 @@
             <path>
               <item name="CompanySite" type="b2602c69:ProjectViewProjectNode" />
               <item name="CompanySite" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CompanySite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CompanySite" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -332,7 +325,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561486506486</updated>
-      <workItem from="1561486509924" duration="19693000" />
+      <workItem from="1561486509924" duration="20494000" />
     </task>
     <task id="LOCAL-00001" summary="testa and signals commit">
       <created>1561555448259</created>
@@ -384,7 +377,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19693000" />
+    <option name="totallyTimeSpent" value="20494000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="683" y="25" width="683" height="686" extended-state="4" />
@@ -607,30 +600,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CompanySite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="121" selection-start-line="121" selection-end-line="121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/management/commands/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -700,6 +669,33 @@
           <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="e#635#667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="97" column="27" selection-start-line="97" selection-start-column="27" selection-end-line="97" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CompanySite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="56" column="14" lean-forward="true" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
