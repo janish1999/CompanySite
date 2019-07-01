@@ -51,7 +51,7 @@
             "thumbnail": "{{ image.thumbnail.url|safe }}"
           },
         {% endfor %}
-      ]
+      ];
       ReactDOM.render(React.createElement(ImageBox, {
         images: images,
         imageStart: images[0]

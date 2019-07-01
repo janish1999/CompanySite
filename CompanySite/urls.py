@@ -21,6 +21,8 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.views.generic.detail import DetailView
 from main import models
+from django.contrib.auth import views as auth_views
+from main import forms
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -29,4 +31,14 @@ urlpatterns = [
     path("contact-us/", views.ContactUsView.as_view(template_name="contact_us.html"), name="contact_us"),
     path("products/<slug:tag>/",views.ProductListView.as_view(),name="product"),
     path("product/<slug:slug>/", DetailView.as_view(model=models.Product),name="product",),
+    path('signup/', views.SignupView.as_view(), name="signup"),
+    path("address/",views.AddressListView.as_view(),name="address_list",),
+    path("address/create/",views.AddressCreateView.as_view(),name="address_create",),
+    path("address/<int:pk>/", views.AddressUpdateView.as_view(),name="address_update",),
+    path("address/<int:pk>/delete/",views.AddressDeleteView.as_view(),name="address_delete",),
+    path("add_to_basket/",views.add_to_basket,name="add_to_basket",),
+    path('basket/', views.manage_basket, name="basket"),
+    path("login/",auth_views.LoginView.as_view(template_name="login.html",form_class=forms.AuthenticationForm,)
+         , name="login",),
+
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

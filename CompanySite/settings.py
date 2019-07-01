@@ -48,6 +48,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'main.middlewares.basket_middleware',
 ]
 
 ROOT_URLCONF = 'CompanySite.urls'
@@ -102,6 +103,9 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 AUTH_USER_MODEL = "main.User"
+
+
+LOGIN_REDIRECT_URL = '/'
 
 
 # Internationalization

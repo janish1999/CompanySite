@@ -25,10 +25,7 @@ class TestPage(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertTemplateUsed(response, 'contact_us.html')
         self.assertContains(response, 'BookTime')
-        self.assertIsInstance(
-        response.context["form"], forms.ContactForm
-    )
-
+        self.assertIsInstance(response.context["form"], forms.ContactForm)
 
     def test_products_page_returns_active(self):
         models.Product.objects.create(
@@ -247,4 +244,4 @@ class TestPage(TestCase):
             models.Basket.objects.filter(user=user1).exists()
         )
         basket = models.Basket.objects.get(user=user1)
-        self.assertEquals(basket.count(), 3)
+        self.assertEquals(basket.count(),2)
