@@ -14,7 +14,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path,include
 from django.views.generic import TemplateView
 from main import views
 from django.conf import settings
@@ -40,5 +40,5 @@ urlpatterns = [
     path('basket/', views.manage_basket, name="basket"),
     path("login/",auth_views.LoginView.as_view(template_name="login.html",form_class=forms.AuthenticationForm,)
          , name="login",),
-
+    path("api/", include(router.urls)),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
